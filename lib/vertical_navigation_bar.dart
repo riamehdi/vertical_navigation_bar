@@ -97,7 +97,7 @@ class _SideNavigationState extends State<SideNavigation> {
     final size = MediaQuery.of(context).size;
     return Container(
         decoration: BoxDecoration(
-            color: theme.primarySwatch,
+            color: theme.accentColor,
             boxShadow: [
               BoxShadow(color: Colors.grey, blurRadius: 6.0)
             ]
